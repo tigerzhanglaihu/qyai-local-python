@@ -45,11 +45,12 @@ pip install -r requirements.txt
 请下载 Ember 模型并解压到指定目录：
 
 ```sh
-# 下载 Ember 模型
-wget https://path/to/ember-model.zip
+# 下载 Embedding 模型
+# EMBEDDING_MODEL_DOWNLOAD_URL = "https://www.modelscope.cn/Jerry0/text2vec-large-chinese.git"
+wget https://www.modelscope.cn/Jerry0/text2vec-large-chinese.git
 
 # 解压模型文件
-unzip ember-model.zip -d path/to/your/ember-model
+unzip ember-model.zip -d installpath/Models/text2vec-large-chinese
 ```
 
 ### 6. 运行 main 测试
